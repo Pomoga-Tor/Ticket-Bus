@@ -57,9 +57,14 @@ export default function Booking() {
             onChange={(e) => setRoute(e.target.value)}
             className="form-control"
           >
-            <option>Москва - Санкт-Петербург</option>
-            <option>Москва - Казань</option>
-            <option>Москва - Сочи</option>
+            <option>Волгоград - Элиста</option>
+            <option>Волгоград - Казань</option>
+            <option>Геленджик - Сочи</option>
+             <option>Сочи - Санкт-Петербург</option>
+            <option>Саратов - Пенза</option>
+            <option>Волгоград - Сочи</option>
+            <option>Ставраполь - Краснодар</option>
+            <option>Нижний-Новгород - Пермь</option>
           </select>
         </div>
         
